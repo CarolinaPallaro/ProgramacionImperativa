@@ -35,3 +35,51 @@
 
 
 
+//Strings
+
+//.lenght()
+
+let texto = 'practicando en un dia lluvioso';
+console.log(texto.length);
+
+
+
+
+//.indexOf()
+
+console.log(texto.indexOf('dia'));
+//si ingreso una palabra qn esta en el texto devuelve -1
+
+
+
+
+//.slice()
+
+console.log(texto.slice(0, 15));
+
+
+
+
+//.trim()
+//Elimina espacios en blanco antes y despues de la 1er ocurrencia de un caracter
+
+console.log(texto.trim());
+
+
+
+
+//. split() Permite convertir String en Array 
+console.log(texto.trim(" ")); //separa caracteres que ahora son parte de un array separados por ","
+//el delimitador puede ser cualquier caracter
+
+
+
+
+
+//.replace(loQue buscas, su reemplazo) son los parametros.
+
+console.log(texto.replace('lluvioso', 'soleado'));
+
+
+
+

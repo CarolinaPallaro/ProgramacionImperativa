@@ -153,7 +153,7 @@ let arrcuentas = [
 let banco = {
     clientes: arrcuentas,
     consultarClientes: function (titular){
-        let clienteEncontrado = 0;
+        let clienteEncontrado = undefined;
         for (let i = 0; i < arrcuentas.length; i++){
             
         if(titular == arrcuentas[i].titularCuenta){
