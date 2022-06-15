@@ -18,13 +18,7 @@
 
 //invertir el orden del array anterior y mostarlo por consola
 
-// Declarar 3 arrays de edades por ejemplo -> [10, 9, 8, 22, 55, 80, 5, 63, 29, 9] , luego desarrollar las siguientes funciones:
-// 1 - Funcion que reciba un array de edades y retorne el promedio 
-// 2 - Funcion que reciba un array de edades y retorne el mayor elemento // 80
-// 3 - Funcion que reciba un array de edades y retorne el menor elemento // 5
-// 4 - Funcion que reciba un array de edades y retorne true si encuentra algun elemento repetido o false caso contrario
-// 5 - Funcion que reciba un array de edades y una edada buscar, retorne el primer índice si encuentra coincidencia o null caso contrario
-// 6 - Funcion que reciba un array de edades y retorne un objeto literal con dos propiedades que contengan un array
+
 
 //    {
 //       edadesMenor : "// edades menor a 18",  
@@ -32,7 +26,6 @@
 // //    }
 
 // nota : Se recomienda utilizar estructuras y conceptos vistos en la materia, pueden resolver con metodos pero tambien de forma imperativa (for if)
-
 
 
 //Strings
@@ -44,12 +37,10 @@ console.log(texto.length);
 
 
 
-
 //.indexOf()
 
 console.log(texto.indexOf('dia'));
 //si ingreso una palabra qn esta en el texto devuelve -1
-
 
 
 
@@ -67,7 +58,6 @@ console.log(texto.trim());
 
 
 
-
 //. split() Permite convertir String en Array 
 console.log(texto.trim(" ")); //separa caracteres que ahora son parte de un array separados por ","
 //el delimitador puede ser cualquier caracter
@@ -81,5 +71,33 @@ console.log(texto.trim(" ")); //separa caracteres que ahora son parte de un arra
 console.log(texto.replace('lluvioso', 'soleado'));
 
 
+console.log('---------------------------------------');
 
 
+
+// Declarar 3 arrays de edades por ejemplo -> [10, 9, 8, 22, 55, 80, 5, 63, 29, 9] , luego desarrollar las siguientes funciones:
+// 1 - Funcion que reciba un array de edades y retorne el promedio 
+// 2 - Funcion que reciba un array de edades y retorne el mayor elemento // 80
+// 3 - Funcion que reciba un array de edades y retorne el menor elemento // 5
+// 4 - Funcion que reciba un array de edades y retorne true si encuentra algun elemento repetido o false caso contrario
+// 5 - Funcion que reciba un array de edades y una edada buscar, retorne el primer índice si encuentra coincidencia o null caso contrario
+// 6 - Funcion que reciba un array de edades y retorne un objeto literal con dos propiedades que contengan un array
+
+
+
+let edades1 = [10, 9, 8, 22, 55, 80, 5, 63, 29, 9]
+let edades2 = [15, 16, 17, 18, 19, 12, 54, 22, 85]
+let edades3 = [98, 10, 16, 17, 34, 13, 34, 24, 26]
+
+
+
+const promediar = (arr) =>{
+    let resultado = 0
+    for (let i = 0; i < arr.length; i++) {
+        resultado+= arr[i]
+        return resultado/arr.length
+    }
+}
+
+promediar(totalEdades)
+console.log(promediar(edades2));

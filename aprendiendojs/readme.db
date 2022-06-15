@@ -1,0 +1,27 @@
+
+
+1 - Utilizar siempre nombres descriptivos para variables, func, etc. 
+El codigo debe ser siempre legible y entendible para cualquiera que lo manipule.
+
+2 - ORDENAR Y TABULAR
+    Utilizar comentarios en caso de ser necesario, codigo limpio y entendible para futuro
+
+3 - No utilizar comentarios de forma abusiva. Si el codigo no es lo suficientemente entendible necesita de estos
+
+4 - Evitar duplicar el codigo. Si en algun momento es necesario modificarlo, evito ir a los distintos sitios en donde puse codigo. 
+
+5 - No abstraer y no parametrizar nada. Si vuelvo a utilizar una funcionalidad lo llevo a archivos separados y utilizo ese metodo en los casos que sea necesario.
+    Puedo abstraer y separar  codigo que se repitan en varias partes dentro de mis proyectos, de esta forma evito la repeticion dentro del mismo y unicamente voy a pasar los parametros, valores, etc que sean necesarios luego.
+
+6 -  Funciones con una funcionalidad clara. Si es necesario dividir las funciones en varias partes, lo hago.
+
+7 - Parametros. Puedo pasar info con un solo parametro para evitar el amontonamiento.
+
+8 - If anidados. Evitarlos. Puedo utilizar otros metodos para el codigo, utilizo IF ELSE.
+
+9 - Evitar bucles dentro de otros. Son suceptibles a bugs.
+
+10 - Abusar el callback hel. (llamar funciones muchas veces). Utilizando promesas.
+
+11 - No utilizar patrones de diseño de Software. No hay que meterlos en cada cosa en donde no sean necesarios.
+

@@ -17,33 +17,34 @@
 // }
 
 //lenght --> 
-let numeroQuini = [12, 16, 22, 54]
+// let numeroQuini = [12, 16, 22, 54]
 
-//para guardar el resultado
-let resultadoSumaNumero = 0 
+// //para guardar el resultado
+// let resultadoSumaNumero = 0 
 
-for ( let i = 0; i < numeroQuini.length; i++) {
+// for ( let i = 0; i < numeroQuini.length; i++) {
     
-    resultadoSumaNumero = resultadoSumaNumero + numeroQuini[i]
-}
-console.log(resultadoSumaNumero);
-//nombre del arreglo en posicion i cada vuelta tiene acceso a elemnetos, q en primer vuelta es 0.
+//     resultadoSumaNumero = resultadoSumaNumero + numeroQuini[i]
+// }
+// console.log(resultadoSumaNumero);
+// //nombre del arreglo en posicion i cada vuelta tiene acceso a elemnetos, q en primer vuelta es 0.
 
 
-//BONUS 
+// //BONUS 
 
-function digitalhouse(numero1, numero2){
-    if (condition) {
+// function digitalhouse(numero1, numero2){
+//     if (condition) {
         
-    }
+//     }
 
-    else if (condition) {
+//     else if (condition) {
         
-    }
+//     }
 
-    else(jsjs)
-
-
+//     else(jsjs)
 
 
-}
+
+
+// }
+
